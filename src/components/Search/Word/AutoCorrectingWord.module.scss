@@ -1,0 +1,12 @@
+.word{
+    margin-inline: 4px;
+    border: 1px solid black;
+    min-width: 4rem;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.word:hover{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}

@@ -1,0 +1,11 @@
+.searchBox{
+    display: flex;
+    flex-direction: column;
+
+    .correction{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

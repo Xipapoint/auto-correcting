@@ -1,0 +1,1 @@
+export type WORD_TYPE = 'Russian' | 'English' | 'Ukrainian'
