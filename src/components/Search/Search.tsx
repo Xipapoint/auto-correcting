@@ -26,11 +26,11 @@ function Search() {
     
         words.get(languages[0])?.forEach((isCorrect, correctWord) => {
           const distance = lev_distance_total(word, correctWord);
-          distances.push({ word: correctWord, distance });
+          if(correctWord[0] === word[0]) distances.push({ word: correctWord, distance });
         });
         words.get(languages[1])?.forEach((isCorrect, correctWord) => {
             const distance = lev_distance_total(word, correctWord);
-            distances.push({ word: correctWord, distance });
+            if(correctWord[0] === word[0]) distances.push({ word: correctWord, distance });
         });
     
         distances.sort((a, b) => a.distance - b.distance);
